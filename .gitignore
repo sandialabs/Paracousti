@@ -1,0 +1,6 @@
+_site/
+assets/
+.sass-cache/
+
+_config.yml_old.yml
+.jekyll-metadata
