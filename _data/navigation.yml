@@ -1,0 +1,23 @@
+main:
+  - title: "Getting Started"
+    url: /manual/
+  - title: "Tutorials"
+    url: /tut/
+  - title: "About"
+    url: /about/
+
+# Not sure the menu list is required since the individual table of contents are auto generated in each section.
+# This would allow us to provide a more detailed sidebar and leave the top mast with fewer high-priority links.
+menu:
+  - title: "Getting Started"
+    children:
+      - title: "Quick-Start"
+        url: /manual/
+
+  - title: "Tutorials"
+    url: /tut/
+
+  - title: About
+    children:
+      - title: About
+        url: /about/
