@@ -3,6 +3,8 @@ main:
     url: /manual/
   - title: "Tutorials"
     url: /tut/
+  - title: "Download Paracousti"
+    url: https://github.com/SNL-WaterPower/Paracousti
   - title: "About"
     url: /about/
 
@@ -10,14 +12,10 @@ main:
 # This would allow us to provide a more detailed sidebar and leave the top mast with fewer high-priority links.
 menu:
   - title: "Getting Started"
-    children:
-      - title: "Quick-Start"
-        url: /manual/
-
-  - title: "Tutorials"
+    url: /manual/
+  - title: "Tutorials and Examples"
     url: /tut/
-
+  - title: "Publications"
+    url: /pubs/
   - title: About
-    children:
-      - title: About
-        url: /about/
+    url: /about/

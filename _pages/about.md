@@ -4,9 +4,10 @@ layout: single
 permalink: /about/
 
 sidebar:
-  nav: main
+  nav: menu
 author_profile: true
 ---
+
 <h1> Version </h1>
 Paracousti 0.1.0
 

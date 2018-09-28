@@ -14,7 +14,7 @@ source "https://rubygems.org"
 # The remote version since this is not a default Jekyll theme for GitHub Pages. Also change in _config.yml
 # don't forget to rebuild
 gem "github-pages", group: :jekyll_plugins
-#remote_theme: "mmistakes/minimal-mistakes"
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
