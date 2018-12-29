@@ -14,19 +14,33 @@ sidebar:
 Here you can find a collection of tutorials and accompanying files.
 
 # Tutorials
-## Tutorial 1: A Simple 2D Model
-A 2-layer waveguide is developed and analyzed. This problem mirrors a Pekeris Waveguide and incorporates both a water and sediment layer with constant properties. The energy from a continuous noise source spreads through a range-independent domain and diminishes in value as it spreads and is absorbed by the sediment layer. This tutorial walks users through the development, solution, and analysis of the problem.
+## Tutorial 1: Building a Simple 2D Model
+A two-layer waveguide is developed and analyzed. This problem mirrors a Pekeris Waveguide and incorporates both a water and sediment layer with constant properties. The energy from a continuous noise source spreads through a range-independent domain and diminishes in value as it spreads and is absorbed by the sediment layer. This tutorial walks users through the development, solution, and analysis of the problem.
 
 [Tutorial 1]({{site.baseurl}}/assets/Paracousti_Tutorial_1.pdf)
 
 [Pekeris Example Files]({{site.baseurl}}/assets/examplefiles_pekeris.zip)
+
+## Tutorial 2: Pre-processing for a 2D Model
+A 2D cross-section is pulled from bathymetric data around Newport, Oregon, USA. This problem mirrors the setup in Tutorial 1 of a Pekeris Waveguide and incorporates both a water and sediment layer with constant properties. The energy from a continuous noise source spreads through a range-independent domain and diminishes in value as it spreads and is absorbed by the sediment layer. This tutorial walks users through the setup of the problem.
+
+[Tutorial 2]({{site.baseurl}}/assets/Paracousti_Tutorial_2.pdf)
+
+[Tutorial 2 Example Files]({{site.baseurl}}/assets/examplefiles_tut2.zip)
+
+## Tutorial 3: Post-processing for a Simple 2D Model
+Tutorial 3 expands upon the post-processing performed in Tutorial 1. Further details are given to help navigate the netCDF output files and perform more detailed analysis with the time-history of pressure at individual points and plotting the planar pressure field solutions.
+
+[Tutorial 3]({{site.baseurl}}/assets/Paracousti_Tutorial_3.pdf)
+
+[Tutorial 3 Example Files]({{site.baseurl}}/assets/examplefiles_tut3.zip)
 
 
 # Additional Example Files
 These examples provide additional MATALB scripts to develop a range of problems that can be solved with Paracousti. While the final NetCDF input and output files are not included here, they are available upon request.
 
 ## Unbounded Spherical Spreading
-A standard validation problem is to determine how a sound pulse travels and decays as it moves away from its source. In an unbounded system a monopole source spreads evenly in all directions and its energy decays inversly with range.
+A standard validation problem is to determine how a sound pulse travels and decays as it moves away from its source. In an unbounded system a monopole source spreads evenly in all directions and its energy decays inversely with range.
 
 {% include figure image_path="/assets/ex_spherical.png" alt="this is a placeholder image" caption="A comparison of the pressure time history between Paracousti and an analytical solution for spherical spreading." %}
 [Spherical Example Files]({{site.baseurl}}/assets/examplefiles_spherical.zip)
