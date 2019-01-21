@@ -1,0 +1,12 @@
+SRCHOME=/home/location/of/src/ParAcousti
+FC=gfortran
+CC=gcc
+CXX=g++
+MPICXX=mpic++
+
+OBJDIR=.
+BINDIR=/directory/where/to/put/binary/acoustic
+C_FLAGS_LOCAL=-Winline \
+
+#Depending on the compiler, you may need to add "-std=c99" and "-std=c++11" to C_FLAGS_LOCAL.  You can also make specific changes by adding COMMON_FLAGS_LOCAL, LIBS_LOCAL, INCLUDES_LOCAL if you have special flags or locations for libraries and includes that are required.  NetCDF C  (v. 4.0 or greater) libraires/includes and MPI (v. 1.10 or higher) (only openMPI has been used) are required.
+
